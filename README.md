@@ -10,4 +10,4 @@
 
 [01]:https://github.com/JuanC717
 
-[11]:https://github.com/Paula717/Sistema-Operativo-Ubuntu/tree/main/1-VirtualBox
+[11]:https://github.com/Paula717/WSL2/tree/main/1-Arquitectura
