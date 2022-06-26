@@ -11,14 +11,6 @@ WSL2, que fue lanzado en la primavera de 2020, es un perfeccionamiento de [Windo
 
 [1_1]:https://www.ionos.es/digitalguide/servidores/know-how/que-es-el-open-source-o-codigo-abierto/
 
-[1_2]:https://www.ionos.es/digitalguide/servidores/configuracion/virtualizacion/
-
-[1_3]:https://www.ionos.es/digitalguide/servidores/know-how/maquina-virtual/
-
-[1_4]:https://www.ionos.es/digitalguide/servidores/know-how/que-es-hyper-v/
-
-[1_5]:https://www.ionos.es/digitalguide/servidores/configuracion/tutorial-docker-instalacion-y-primeros-pasos/
-
 # <b>¿Qué puedo hacer con WSL?</b>
 
 <cite style="display:block; text-align: justify">WSL le permite ejecutar Linux en un shell de Bash con su elección de distribución (Ubuntu, Debian, OpenSUSE, Kali, Alpine, etc.). Con Bash, puedes ejecutar aplicaciones y herramientas de Linux de línea de comandos. Por ejemplo, escribe

@@ -1,5 +1,14 @@
 # <b>Comparación de WSL1 y WSL2</b>
 
+[1_2]:https://www.ionos.es/digitalguide/servidores/configuracion/virtualizacion/
+
+[1_3]:https://www.ionos.es/digitalguide/servidores/know-how/maquina-virtual/
+
+[1_4]:https://www.ionos.es/digitalguide/servidores/know-how/que-es-hyper-v/
+
+[1_5]:https://www.ionos.es/digitalguide/servidores/configuracion/tutorial-docker-instalacion-y-primeros-pasos/
+
+
 <cite style="display:block; text-align: justify">La diferencia fundamental entre WSL2 y su versión anterior se encuentra en la arquitectura del software. Mientras que WSL1 cuenta con una capa de compatibilidad para la transferencia de la ejecución del código entre Windows y Linux, WSL2 está basado en la [virtualización][1_2] de un sistema operativo Linux. [La máquina virtual][1_3] que se utiliza se ejecuta en el hipervisor nativo de Windows [Hyper-V][1_4], que ofrece un rendimiento especialmente alto.</cite>
 
 ![Arquitectura WSL2](img_Vent/img_1.jpg)
