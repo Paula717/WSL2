@@ -44,7 +44,7 @@ WSL es una excelente opción para los usuarios con necesidades básicas. Sin emb
 
 <cite style="display:block; text-align: justify">La diferencia fundamental entre WSL2 y su versión anterior se encuentra en la arquitectura del software. Mientras que WSL1 cuenta con una capa de compatibilidad para la transferencia de la ejecución del código entre Windows y Linux, WSL2 está basado en la [virtualización][1_2] de un sistema operativo Linux. [La máquina virtual][1_3] que se utiliza se ejecuta en el hipervisor nativo de Windows [Hyper-V][1_4], que ofrece un rendimiento especialmente alto.</cite>
 
-![Arquitectura WSL2](img_Vent/img_1.jpg)
+![Ventajas WSL2](img_Vent/img_1.jpg)
 
 <cite style="display:block; text-align: justify">Mientras que el abanico de funciones de la interfaz Linux de WSL1 era limitado, WSL2 utiliza un núcleoLinux completo. Se trata de núcleo optimizado especialmente para WSL2 en cuanto a tamaño y a rendimiento, basado en el código original estable de “kernel.org”. En la práctica, este planteamiento se traduce en una aceleración de la ejecución del código por un factor de entre dos y veinte. Además, WSL2 requiere menos capacidad de memoria que la versión previa. Para los usuarios resulta especialmente útil que en el núcleo se realicen las tareas de mantenimiento como parte de las actualizaciones regulares de Windows.
 
@@ -81,6 +81,8 @@ Aunque se recomienda la utilización de WSL2 en sistemas modernos, ambas version
 <cite style="display:block; text-align: justify">Otra de las tecnologías más usadas cuando hablamos de virtualización es Docker. A diferencia de los métodos anteriores, esta tecnología no crea un entorno Linux completo que podemos usar sin limitaciones, sino que se crea, dentro de un contenedor, un entorno Linux mínimo sobre el cual debemos ejecutar tan solo un programa o servicio. La ventaja de esta tecnología es que todo lo que ejecutamos dentro de este contenedor funciona de forma aislada a todo lo demás. Es decir, si necesitamos tener en marcha dos servicios diferentes (por ejemplo, un servidor web y un servidor FTP), no los crearemos dentro de un mismo contenedor, sino que crearemos dos contenedores conectados, y dentro de cada uno se ejecutará cada servicio.
 
 Docker es multiplataforma, y hace alusión al eslogan «Build, Share, and Run», por lo que es muy fácil poner en marcha cualquier servicio y mantenerlo. Incluso hacer copias de seguridad. Además, todo el entorno virtualizado es mucho más seguro gracias a que cada servicio está aislado, y un fallo en uno de ellos no dará acceso a todo el sistema a un atacante. Por desgracia, no todo son ventajas, y es que, al trabajar con contenedores, el desarrollo se hace siempre en producción (con el riesgo que eso supone), y además hay que dar más vuelta hasta entrar en la consola de desarrollo.</cite>
+
+![Ventajas WSL2](img_Vent/img_2.jpg)
 
 # Mas Información
 * [Aprende a usar WSL, el Subsistema de Windows 10 para Linux][1_6]
