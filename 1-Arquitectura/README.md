@@ -46,3 +46,16 @@ Lo primero que tenemos que realizar es acceder a la terminal de WSL. Una vez la 
 Al acceder dentro de esta ruta podrán ver la totalidad de archivos que tienen en los sistemas operativos que tengan en WSL.</cite>
 
 ![Arquitectura WSL2](img_Arq/img_6.png)
+
+# Mas Información
+* [WSL2: presentación del subsistema de Windows para Linux 2][1_5]
+* [Acceder a los ficheros Linux de WSL desde Windows 10][1_2]
+* [Trabajo en sistemas de archivos Windows y Linux][1_3]
+* [Preguntas más frecuentes sobre el subsistema de Windows para Linux][1_4]
+
+
+
+[1_2]:https://geekland.eu/acceder-a-los-ficheros-linux-de-wsl-desde-windows-10/
+[1_3]:https://docs.microsoft.com/es-es/windows/wsl/filesystems
+[1_4]:https://docs.microsoft.com/es-es/windows/wsl/faq
+[1_5]:https://www.ionos.es/digitalguide/servidores/know-how/wsl2/#:~:text=El%20subsistema%20de%20Windows%20para,es%20especialmente%20interesante%20para%20programadores.

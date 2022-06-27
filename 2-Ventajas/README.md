@@ -24,7 +24,11 @@ Aunque podemos hacer uso de WSL en Windows Server, las distribuciones disponible
 
 WSL es una excelente opción para los usuarios con necesidades básicas. Sin embargo, no está pensado para grandes cargas de trabajo de producción, sino para tareas mucho más sencilla. Aunque con el lanzamiento de WSL2, la funcionalidad ha mejorado bastante, hasta que no se lance una interfaz gráfica, WSL seguirá siendo una característica de Windows muy limitada.</cite>
 
-# <b>Comparación de WSL1 y WSL2</b>
+# <b>Diferencias con versiones y tecnologías de virtualización</b>
+
+<cite style="display:block; text-align: justify">Hay varias versiones de este subsistema en función de la versión de Windows que utilicemos. Y, por supuesto, hay también diferencias con las distintas tecnologías de virtualización. A continuación, vamos a verlas todas ellas.</cite>
+
+# <b>WSL1 y WSL2</b>
 
 [1_2]:https://www.ionos.es/digitalguide/servidores/configuracion/virtualizacion/
 
@@ -33,6 +37,9 @@ WSL es una excelente opción para los usuarios con necesidades básicas. Sin emb
 [1_4]:https://www.ionos.es/digitalguide/servidores/know-how/que-es-hyper-v/
 
 [1_5]:https://www.ionos.es/digitalguide/servidores/configuracion/tutorial-docker-instalacion-y-primeros-pasos/
+
+[1_6]:https://www.softzone.es/windows/como-se-hace/subsistema-windows-linux/
+
 
 
 <cite style="display:block; text-align: justify">La diferencia fundamental entre WSL2 y su versión anterior se encuentra en la arquitectura del software. Mientras que WSL1 cuenta con una capa de compatibilidad para la transferencia de la ejecución del código entre Windows y Linux, WSL2 está basado en la [virtualización][1_2] de un sistema operativo Linux. [La máquina virtual][1_3] que se utiliza se ejecuta en el hipervisor nativo de Windows [Hyper-V][1_4], que ofrece un rendimiento especialmente alto.</cite>
@@ -44,3 +51,36 @@ WSL es una excelente opción para los usuarios con necesidades básicas. Sin emb
 Puesto que WSL1 utiliza una capa de traducción para gestionar los accesos a Linux y a Windows, algunos tipos de software especializado de Linux no pueden incluirse. Por el contrario, la virtualización del núcleo de WSL2 ofrece compatibilidad completa con los accesos al sistema. En la práctica, esto significa que los elementos de software complejo como [Docker][1_5] también se pueden ejecutar con WSL2. Además, desde el entorno Linux se obtiene acceso a la tarjeta gráfica, lo que resulta ventajoso sobre todo en aplicaciones con grandes conjuntos de datos, como las que se usan para el machine learning o en contextos de data science.
 
 Aunque se recomienda la utilización de WSL2 en sistemas modernos, ambas versiones pueden funcionar en paralelo. En cada distribución Linux es posible determinar qué versión WSL se debe utilizar para el control.</cite>
+
+# <b>WSL2 vs máquina virtual</b>
+
+<cite style="display:block; text-align: justify">Entonces,qué ventajas aporta WSL2 frente a instalar Linux en una máquina virtual como <b>VirtualBox</b> o <b>VMware</b>
+* La primera diferencia es que, mientras que un Linux en una máquina virtual está aislado, WSL2 está totalmente integrado con Windows, por lo que ambos sistemas pueden interactuar entre sí. Además, el Subsistema de Windows puede cargar Linux en tan solo un segundo, mientras que una máquina virtual es bastante más lenta a la hora de arrancar el sistema.
+
+* El consumo de recursos es también muy considerable. Mientras que <b>WSL2 es muy ligero y gasta muy poca memoria RAM,</b> una máquina virtual consume muchos más recursos en este aspecto.
+
+* Y, aunque es cierto que una máquina virtual ofrece <b>más control y más opciones de personalización,</b> Windows Subsystem for Linux solo se ejecuta cuando lo necesitamos, y solo carga los procesos y servicios necesarios para lo que necesitemos hacer.
+
+<b>Se puede usar una máquina virtual cuando</b>
+
+* Necesitemos sacarle todo el provecho a Linux.
+* Tengamos previsión de escalabilidad en función de los niveles de producción.
+* Queramos usar un sistema operativo con interfaz y aplicaciones de entorno gráfico.
+* Vayamos a hacer un uso intensivo de la red en el que el rendimiento es esencial.
+
+<b>Podemos optar por WSL cuando</b>
+
+* Queramos ejecutar comandos básicos de Linux.
+* Queramos gastar poca memoria y pocos recursos del PC.
+* Necesitemos eficiencia de almacenamiento.
+* No queramos/podamos/sepamos usar máquinas virtuales.
+* Queramos un acceso rápido al sistema de archivos, e interactuar con el sistema de archivos de Windows directamente.</cite>
+
+# <b>WSL vs Docker</b>
+
+<cite style="display:block; text-align: justify">Otra de las tecnologías más usadas cuando hablamos de virtualización es Docker. A diferencia de los métodos anteriores, esta tecnología no crea un entorno Linux completo que podemos usar sin limitaciones, sino que se crea, dentro de un contenedor, un entorno Linux mínimo sobre el cual debemos ejecutar tan solo un programa o servicio. La ventaja de esta tecnología es que todo lo que ejecutamos dentro de este contenedor funciona de forma aislada a todo lo demás. Es decir, si necesitamos tener en marcha dos servicios diferentes (por ejemplo, un servidor web y un servidor FTP), no los crearemos dentro de un mismo contenedor, sino que crearemos dos contenedores conectados, y dentro de cada uno se ejecutará cada servicio.
+
+Docker es multiplataforma, y hace alusión al eslogan «Build, Share, and Run», por lo que es muy fácil poner en marcha cualquier servicio y mantenerlo. Incluso hacer copias de seguridad. Además, todo el entorno virtualizado es mucho más seguro gracias a que cada servicio está aislado, y un fallo en uno de ellos no dará acceso a todo el sistema a un atacante. Por desgracia, no todo son ventajas, y es que, al trabajar con contenedores, el desarrollo se hace siempre en producción (con el riesgo que eso supone), y además hay que dar más vuelta hasta entrar en la consola de desarrollo.</cite>
+
+# Mas Información
+* [Aprende a usar WSL, el Subsistema de Windows 10 para Linux][1_6]
