@@ -24,6 +24,7 @@
 <cite style="display:block; text-align: justify">Ahora comenzara a instalar algunos archivos, una vez encontrados los archivos aplicara los cambios a nuestro sistema y posteriormente nos pedira que reiniciemos nuestro sistema operativo para que se guarden los cambios .</cite>
 
 ![Intalacion WSL2](img_Inst/img06.jpg)
+![Intalacion WSL2](img_Inst/img07.jpg)
 
 
 
