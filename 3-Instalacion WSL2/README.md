@@ -26,7 +26,23 @@
 ![Intalacion WSL2](img_Inst/img06.jpg)
 ![Intalacion WSL2](img_Inst/img07.jpg)
 
+<cite style="display:block; text-align: justify">Una vez que hayamos precionado sobre el boton "Reiniciar Ahora" nos aparecera una ventana igual a esta donde nos dira que esta configurando las actualizaciones de Windows y que no apaguemos el equipo.</cite>
 
+![Intalacion WSL2](img_Inst/img08.jpg)
+
+<cite style="display:block; text-align: justify">Cuando nuestro sistema operativo se haya reiniciado vamos a continuar con el siguiente paso, que seria Instalar Ubuntu.</cite>
+
+<cite style="display:block; text-align: justify">Para eso nos dirigimos hacia el boton de inicio y escribimos <b>Microsoft Store</b></cite>
+
+![Intalacion WSL2](img_Inst/img09.jpg)
+
+<cite style="display:block; text-align: justify">Damos clic sobre esta aplicación, esperamos a que cargue, en la opción de busqueda escribiremos Ubuntu,</b> nos apareceran algunas versiones de Ubuntu, en nuestro caso la versión que vamos a escoger sera "Ubuntu 20.04 LTS"</cite>
+
+![Intalacion WSL2](img_Inst/img10.jpg)
+
+<cite style="display:block; text-align: justify">Damos clic sobre esta versión y le daremos clic en Obtener, asi se iniciara la descarga, esto podra tardar unos minutos ya que dependera de la velocidad de internet que tengamos.</cite>
+
+![Intalacion WSL2](img_Inst/img11.jpg)
 
 
 
