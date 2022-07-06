@@ -44,5 +44,8 @@
 
 ![Intalacion WSL2](img_Inst/img11.jpg)
 
+<cite style="display:block; text-align: justify">Una vez que la descarga termine, precionaremos sobre el boton abrir y nos aparecera una ventana emergente donde tendremos que esperar a que se instale y lo configure para nosotros.</cite>
 
+![Intalacion WSL2](img_Inst/img12.jpg)
+![Intalacion WSL2](img_Inst/img13.jpg)
 
