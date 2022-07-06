@@ -47,5 +47,17 @@
 <cite style="display:block; text-align: justify">Una vez que la descarga termine, precionaremos sobre el boton abrir y nos aparecera una ventana emergente donde tendremos que esperar a que se instale y lo configure para nosotros.</cite>
 
 ![Intalacion WSL2](img_Inst/img12.jpg)
+
+<cite style="display:block; text-align: justify"></cite>
+
 ![Intalacion WSL2](img_Inst/img13.jpg)
 
+<cite style="display:block; text-align: justify">Cuando termine de hacer las configuraciones nos solicitara que ingresemos un Usuario, este usuario no tiene que ser el mismo usiario de Windows ya que el Usuario que nos pide crear sera el de Ubuntu.</cite>
+
+<cite style="display:block; text-align: justify">En nuestro caso usaremos "grupo01" y presionamos Enter.</cite>
+
+![Intalacion WSL2](img_Inst/img14.jpg)
+
+<cite style="display:block; text-align: justify">Tambien nos pediera que ingresemos una clave, una vez ingresada la clave nos dira que nuestra contraseña se ha creado correctamente.</cite>
+
+![Intalacion WSL2](img_Inst/img15.jpg)
