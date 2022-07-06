@@ -61,3 +61,11 @@
 <cite style="display:block; text-align: justify">Tambien nos pediera que ingresemos una clave, una vez ingresada la clave nos dira que nuestra contraseña se ha creado correctamente.</cite>
 
 ![Intalacion WSL2](img_Inst/img15.jpg)
+
+<cite style="display:block; text-align: justify">Una vez creado el usuario y la contraseña de Ubuntu, vamos a precionar el boton de inicio de Windows y escribiremos <b>PowerShell</b></cite>
+
+![Intalacion WSL2](img_Inst/img16.jpg)
+
+<cite style="display:block; text-align: justify">Hacemos clic derecho sobre la aplicación y la ejecutaremos como Administrador.</cite>
+
+![Intalacion WSL2](img_Inst/img17.jpg)
