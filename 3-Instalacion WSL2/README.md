@@ -69,3 +69,21 @@
 <cite style="display:block; text-align: justify">Hacemos clic derecho sobre la aplicación y la ejecutaremos como Administrador.</cite>
 
 ![Intalacion WSL2](img_Inst/img17.jpg)
+
+<cite style="display:block; text-align: justify">Se nos abrira la ventana de PowerShell de Windows, aqui vamos a ingresar una serie de comandos para terminar con la configuración de nuestro WSL2.</cite>
+
+![Intalacion WSL2](img_Inst/img18.jpg)
+
+<cite style="display:block; text-align: justify">El primer comando que utilizaremos sera: 
+
+                                        wsl -l -v 
+Este comando nos dira que version de Ubuntu en WSL estamos corriendo, en nuestro caso nos dice que estamos corriendo la version 1.</cite>
+
+![Intalacion WSL2](img_Inst/img19.jpg)
+
+<cite style="display:block; text-align: justify">Pero como nosotros necesitamos que corra la version WSL2, ejecutaremos el siguiente comando:
+
+                            wsl --set-version Ubuntu-20.04 2
+una vez ejecutado este comando nos dira que se necesita una actualizacion de nuestro componente de Kernel, nos pide que visitemos una pagina y nos daraun enlace el cual copiaremos y pegaremos en nuestro navegador.</cite>
+
+![Intalacion WSL2](img_Inst/img20.jpg)
