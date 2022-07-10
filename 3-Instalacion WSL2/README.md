@@ -115,3 +115,20 @@ Nos dice que aun tenermos la version 1, asi que ejecutamos el comando
 y esperamos unos minutos a que haga la conversion</cite>
 
 ![Intalacion WSL2](img_Inst/img25.jpg)
+
+<cite style="display:block; text-align: justify">Una vez terminado este proceso, nos dira que la conversion se ha completado</cite>
+
+![Intalacion WSL2](img_Inst/img26.jpg)
+
+<cite style="display:block; text-align: justify">Verificamos nuevamente la versión de nustro WSL, como podemos observar ya nos dice que estamos corriendo la version 2 de WSL</cite>
+
+![Intalacion WSL2](img_Inst/img27.jpg)
+
+<cite style="display:block; text-align: justify">Ya corriendo con la version 2 de WSL proseguimos a configurar de una forma predeterminada nuestro WSL2, para eso ejecutaremos el siguiente comando:
+
+                                    wsl --set-default-version 2
+Presionamos enter y nos dira que la operación se completo correctamente.</cite>
+
+![Intalacion WSL2](img_Inst/img28.jpg)
+
+<cite style="display:block; text-align: justify">Con esto ya estaremos corriendo de manera predeterminada la version 2 de WSL.</cite>
