@@ -87,3 +87,31 @@ Este comando nos dira que version de Ubuntu en WSL estamos corriendo, en nuestro
 una vez ejecutado este comando nos dira que se necesita una actualizacion de nuestro componente de Kernel, nos pide que visitemos una pagina y nos daraun enlace el cual copiaremos y pegaremos en nuestro navegador.</cite>
 
 ![Intalacion WSL2](img_Inst/img20.jpg)
+
+![Intalacion WSL2](img_Inst/img21.jpg)
+
+<cite style="display:block; text-align: justify">En el paso 4 donde dice <b>"Paso 4: Descarga del paquete de actualización del kernel de Linux"</b> precionamos sobre la opción que dice "Paquete de actualización del kernel de Linux en WSL 2 para máquinas x64", automaticamente se comenzara a descargar el paquete de actualización.</cite>
+
+![Intalacion WSL2](img_Inst/img22.jpg)
+
+<cite style="display:block; text-align: justify">Una vez que termine lo ejecutaremos e instalaremos.
+
+Presionamos sobre el botón Next</cite>
+
+![Intalacion WSL2](img_Inst/img23.jpg)
+
+<cite style="display:block; text-align: justify">Esperamos a que se cargen los paquetes, presionamos en el boton si y comenzara la instalación.
+
+Una vez terminada la instalación le daremos en el botón finalizar</cite>
+
+![Intalacion WSL2](img_Inst/img24.jpg)
+
+<cite style="display:block; text-align: justify">Nos vamos a la ventana de PowerShell y verificamos la versión del WSL utilizando el comando:
+
+                                    wsl -l -v 
+Nos dice que aun tenermos la version 1, asi que ejecutamos el comando 
+            
+                            wsl --set-version Ubuntu-20.04 2
+y esperamos unos minutos a que haga la conversion</cite>
+
+![Intalacion WSL2](img_Inst/img25.jpg)
