@@ -145,3 +145,49 @@ Para esto utilizaremos el siguiente comando:
 <cite style="display:block; text-align: justify">Le damos enter y nos pedira que ingresemos la contraseña, una vez escribamos la contraseña comenzara la descarga de los paquetes para realizar la actualización.</cite>
 
 ![Intalacion WSL2](img_Inst/img30.jpg)
+
+<cite style="display:block; text-align: justify">Una vez terminada la actualización, continuaremos con la instalación de la interfaz Git, para esto tenemos que comprobar primero si tenemos corriendo el [XRDP][1_0], para esto utilizaremos el siguiente comando:
+
+                                sudo apt-get purge xrdp
+</cite>
+
+[1_0]:https://en.wikipedia.org/wiki/Xrdp
+
+<cite style="display:block; text-align: justify">Como podes observar el paquete XRDP no esta instalado</cite>
+
+![Intalacion WSL2](img_Inst/img31.jpg)
+
+<cite style="display:block; text-align: justify">Una vez verificamos que no tenemos instalado el XRDP, ejecutaremos el siguiente comando para instalarlo
+
+                            sudo apt install -y xrdp
+</cite>
+
+<cite style="display:block; text-align: justify">Comenzara a descargar los paquetes y posteriormente comenzara con la instalación
+</cite>
+
+![Intalacion WSL2](img_Inst/img32.jpg)
+
+<cite style="display:block; text-align: justify">Una vez terminado el proceso de instalación vamos a ejecutar el siguiente comando:
+
+                            sudo apt install -y xfce4 
+Esto nos permitira instalar una interfaz grafica libiana.</cite>
+
+![Intalacion WSL2](img_Inst/img33.jpg)
+
+<cite style="display:block; text-align: justify">Nos aparecera esta ventana, escogeremos la primera opción, [GDM3][1_1], le damos en "OK" y continuara con la instalación.</cite>
+
+[1_1]:https://es.wikipedia.org/wiki/GNOME_Display_Manager
+
+![Intalacion WSL2](img_Inst/img34.jpg)
+
+<cite style="display:block; text-align: justify">Una vez terminada la instalación ejecutaremos el siguiente comando:
+
+                            sudo apt install -y xfce4-goodies 
+Precionamos enter y comenzara con la instalación.</cite>
+
+![Intalacion WSL2](img_Inst/img35.jpg)
+
+<cite style="display:block; text-align: justify">Una vez terminada la instalación vamos a realizar algunas modificaciones en la configuración de XRDP, lo primero que haremos sera crear una copia de seguridad, para esto ejecutaremos el siguiente comando:
+
+                    sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
+</cite>
