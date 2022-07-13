@@ -257,4 +257,56 @@ Precionamos en conectar.<cite>
 
 ![Intalacion WSL2](img_Inst/img40.jpg)
 
-<cite style="display:block; text-align: justify">Esperamos a que se carge el escritorio remoto<cite>
+<cite style="display:block; text-align: justify">Esperamos a que se carge el escritorio remoto, presionamos en el boton "si".<cite>
+
+![Intalacion WSL2](img_Inst/img41.jpg)
+
+<cite style="display:block; text-align: justify">Ingresamos nuestro usuario y contraseña.<cite>
+
+![Intalacion WSL2](img_Inst/img42.jpg)
+
+<cite style="display:block; text-align: justify">Y se cargara la interfaz.<cite>
+
+![Intalacion WSL2](img_Inst/img43.jpg)
+
+<cite style="display:block; text-align: justify">Lo que nos queda por hacer es instalar el navegador, para esto abriremos la consola de comandos o la terminarl y ejecutaremos el siguiente comando:
+
+                        sudo apt install firefox
+<cite>
+
+![Intalacion WSL2](img_Inst/img44.jpg)
+
+<cite style="display:block; text-align: justify">Una vez terminada la instalación vara a verificar si el navegador se instalo correctamente, precionaremos sobre el icono del mundo y se nos abrira el navegador de FireFox.<cite>
+
+![Intalacion WSL2](img_Inst/img45.jpg)
+
+### Comandos utilizados
+| # | Comandos |
+|-- |--:|
+| 1 | wsl -l -v |
+| 2 | wsl --set-version Ubuntu-20.04 2 |
+| 3 | wsl --set-default-version 2 |
+| 4 |  sudo apt update && sudo apt -y upgrade |
+| 5 | sudo apt-get purge xrdp |
+| 6 | sudo apt install -y xrdp |
+| 7 | sudo apt install -y xfce4  |
+| 8 | sudo apt install -y xfce4-goodies  |
+| 9 | sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak |
+| 10 |  sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini  |
+| 11 | sudo sed -i 's/max_bpp=32/#max_bpp=32\nmax_bpp=128/g' /etc/xrdp/xrdp.ini |
+| 12 | sudo sed -i 's/xserverbpp=24/#xserverbpp=24\nxserverbpp=128/g' /etc/xrdp/xrdp.ini |
+| 13 | echo xfce4-session > ~/.xsession  |
+| 14 | sudo nano /etc/xrdp/startwm.sh |
+| 15 | startxfce4 |
+| 16 | sudo /etc/init.d/xrdp start |
+| 17 | localhost:3390 |
+| 18 | sudo apt install firefox |
+
+# Mas Información
+* [WSL 2 INSTALACIÓN y CONFIGURACIÓN de UBUNTU 20 en WINDOWS 10][1_3]
+* [Comandos][1_4]
+
+
+[1_3]:https://www.youtube.com/watch?v=VcMqhRhzya8&list=WL&index=12&t=209s
+[1_4]:https://gicodificador.blogspot.com/2022/02/instalacion-y-configuracion-de-wsl-2.html
+
