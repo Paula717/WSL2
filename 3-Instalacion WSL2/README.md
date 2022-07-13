@@ -307,6 +307,6 @@ Precionamos en conectar.<cite>
 * [Comandos][1_4]
 
 
-[1_3]:https://www.youtube.com/watch?v=VcMqhRhzya8&list=WL&index=12&t=209s
+[1_3]:https://youtu.be/VcMqhRhzya8?t=1
 [1_4]:https://gicodificador.blogspot.com/2022/02/instalacion-y-configuracion-de-wsl-2.html
 
