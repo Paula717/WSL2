@@ -131,4 +131,17 @@ Presionamos enter y nos dira que la operación se completo correctamente.</cite>
 
 ![Intalacion WSL2](img_Inst/img28.jpg)
 
-<cite style="display:block; text-align: justify">Con esto ya estaremos corriendo de manera predeterminada la version 2 de WSL.</cite>
+<cite style="display:block; text-align: justify">Con esto ya estaremos corriendo de manera predeterminada la version 2 de WSL.
+
+Continuamos con el siguiente paso, para esto regresaremos a la ventana de Ubuntu, aqui lo que vamos hacer sera actualizar la version de Ubuntu a la ultima para que todo funcione correctamente.
+
+Para esto utilizaremos el siguiente comando:
+
+                         sudo apt update && sudo apt -y upgrade
+</cite>
+
+![Intalacion WSL2](img_Inst/img29.jpg)
+
+<cite style="display:block; text-align: justify">Le damos enter y nos pedira que ingresemos la contraseña, una vez escribamos la contraseña comenzara la descarga de los paquetes para realizar la actualización.</cite>
+
+![Intalacion WSL2](img_Inst/img30.jpg)
