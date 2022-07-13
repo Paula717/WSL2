@@ -191,3 +191,70 @@ Precionamos enter y comenzara con la instalación.</cite>
 
                     sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
 </cite>
+
+<cite style="display:block; text-align: justify">Vamos a cambiar el puerto <b>3389</b> por el puerto <b>3390, para esto ejecutaremos el siguiente comando:</b>
+                    
+                    sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini 
+</cite>
+
+<cite style="display:block; text-align: justify">Cambiamos la resolución de la pantalla, ejecutando el siguiente comando:
+                    
+        sudo sed -i 's/max_bpp=32/#max_bpp=32\nmax_bpp=128/g' /etc/xrdp/xrdp.ini
+</cite>
+
+<cite style="display:block; text-align: justify">Para tener una mejor resolución de pantalla, ejecutamos el siguiente comando:
+                    
+        sudo sed -i 's/xserverbpp=24/#xserverbpp=24\nxserverbpp=128/g' /etc/xrdp/xrdp.ini
+</cite>
+
+<cite style="display:block; text-align: justify">Para guardar los cambios, ejecutamos el siguiente comando:
+                    
+                            echo xfce4-session > ~/.xsession 
+</cite>
+
+<cite style="display:block; text-align: justify">Para poder editar con nano, ejecutamos el siguiente comando:
+                    
+                            sudo nano /etc/xrdp/startwm.sh 
+</cite>
+
+![Intalacion WSL2](img_Inst/img36.jpg)
+
+<cite style="display:block; text-align: justify">Nos dirigimos hcaia estas lineas y les colocaremos un "#" segido por un espacio, colocaremos una etiqueta "#xfce" y copiamos el siguiente comando:
+
+                                startxfce4
+<cite>
+
+![Intalacion WSL2](img_Inst/img37.jpg)
+
+<cite style="display:block; text-align: justify">Guardamos precionando "CTRL + X", precionamos la "Y" para guardar los cambios y precionamos enter.
+
+Una vez realizadas estas configuraciones iniciaremos el servicio de XRDP para eso ejecutaremos el siguiente comando:
+
+                            sudo /etc/init.d/xrdp start
+<cite>
+
+<cite style="display:block; text-align: justify">Nos dira que ya se ha iniciado el escritorio remoto, reiniciaremos nuestro pc para que se guarden los cambios.
+<cite>
+
+![Intalacion WSL2](img_Inst/img38.jpg)
+
+
+<cite style="display:block; text-align: justify">Una vez nuestro pc de reinicie, abrimos la ventana de Ubuntu y ejecutaremos dos comandos:
+
+                    * sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
+                    * sudo /etc/init.d/xrdp start (Para iniciar los servicios de XRDP)
+<cite>
+
+<cite style="display:block; text-align: justify">Precionamos el boton de inicio y escribimos, "escritorio remoto".
+<cite>
+
+![Intalacion WSL2](img_Inst/img39.jpg)
+
+<cite style="display:block; text-align: justify">Nos aparecera una ventana, en esta parte escribiremos:
+
+                                localhost:3390
+Precionamos en conectar.<cite>
+
+![Intalacion WSL2](img_Inst/img40.jpg)
+
+<cite style="display:block; text-align: justify">Esperamos a que se carge el escritorio remoto<cite>
