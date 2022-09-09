@@ -1,4 +1,5 @@
 ![Principal](img/img01.png)
+
 # Realizado Por
 1. [Paula Andrea Cuellar Moreno][00]
 1. [Juan Camilo Cruz][01]
@@ -8,6 +9,7 @@
 1. [Ventajas][12]
 1. [Instalación de WSL2][13]
 1. [Comandos][14]
+1. [Funcionalidad de Linux][15]
 
 [00]:https://github.com/Paula717
 
@@ -20,3 +22,5 @@
 [13]:https://github.com/Paula717/WSL2/tree/main/3-Instalacion%20WSL2
 
 [14]:https://github.com/Paula717/WSL2/tree/main/4-Comandos
+
+[15]:https://github.com/Paula717/WSL2/tree/main/5-Funcionalidad%20de%20Linux
