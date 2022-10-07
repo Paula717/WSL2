@@ -108,6 +108,7 @@ Una vez terminada la instalación le daremos en el botón finalizar</cite>
 
 <div align=center><img src="img_Inst/img24.jpg"></div>
 
+
 <cite style="display:block; text-align: justify">Nos vamos a la ventana de PowerShell y verificamos la versión del WSL utilizando el comando:
 
                                     wsl -l -v 
