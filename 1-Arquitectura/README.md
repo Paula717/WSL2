@@ -5,7 +5,8 @@ El subsistema de Windows para Linux 2 (WSL2) es la solución más sencilla y efi
 
 WSL2, que fue lanzado en la primavera de 2020, es un perfeccionamiento de [Windows Subsystem for Linux (WSL1)][1_0]. Linux es un sistema operativo de [código abierto][1_1] que se diferencia fundamentalmente de Windows, que se desarrolla y distribuye como un producto comercial. Linux convence especialmente por su amplia variedad de herramientas de programación y otros paquetes de software disponibles libremente.</cite>
 
-![Arquitectura WSL2](img_Arq/img_1.jpg) 
+<div align=center><img width="700" src="img_Arq/img_1.jpg"></div>
+
 
 [1_0]:https://www.ionos.es/digitalguide/servidores/know-how/windows-subsystem-for-linux-wsl/
 
@@ -13,7 +14,8 @@ WSL2, que fue lanzado en la primavera de 2020, es un perfeccionamiento de [Windo
 
 # <b>Arquitectura WSL2</b>
 
-![Arquitectura WSL2](img_Arq/img_2.jpg)
+
+<div align=center><img width="700" src="img_Arq/img_2.jpg"></div>
 
 
 # <b>¿Qué puedo hacer con WSL?</b>
@@ -23,11 +25,13 @@ WSL2, que fue lanzado en la primavera de 2020, es un perfeccionamiento de [Windo
                                         lsb_release -a 
 y presiona Entrar para ver los detalles de la distribución de Linux que se está ejecutando actualmente</cite>
 
-![Arquitectura WSL2](img_Arq/img_2.png)
+
+<div align=center><img width="700" src="img_Arq/img_2.png"></div>
 
 <cite style="display:block; text-align: justify">También puede acceder al sistema de archivos del equipo local desde el shell de Bash de Linux; encontrará las unidades locales montadas en la /mnt carpeta . Por ejemplo, la unidad C: se monta en /mnt/c:</cite>
 
-![Arquitectura WSL2](img_Arq/img_3.png)
+
+<div align=center><img width="700" src="img_Arq/img_3.png"></div>
 
 # <b>Acceder a los ficheros de WSL desde el explorador de archivos de WINDOWS</b>
 
@@ -38,19 +42,20 @@ Lo primero que tenemos que realizar es acceder a la terminal de WSL. Una vez la 
                                          explorer.exe
 </cite>
 
-![Arquitectura WSL2](img_Arq/img_4.png)
+<div align=center><img width="600" src="img_Arq/img_4.png"></div>
 
 <cite style="display:block; text-align: justify">Acto seguido se abrirá el explorador de archivos de Windows y podrán ver y operar con los ficheros que tenemos dentro de WSL.
 </cite>
 
-![Arquitectura WSL2](img_Arq/img_5.png)
+
+<div align=center><img width="600" src="img_Arq/img_5.png"></div>
 
 <cite style="display:block; text-align: justify">Otra solución alternativa seria introducir la siguiente ruta en el explorador de archivos de Windows 10:
 
                                         \\wsl$
 Al acceder dentro de esta ruta podrán ver la totalidad de archivos que tienen en los sistemas operativos que tengan en WSL.</cite>
 
-![Arquitectura WSL2](img_Arq/img_6.png)
+<div align=center><img width="600" src="img_Arq/img_6.png"></div>
 
 # Mas Información
 * [WSL2: presentación del subsistema de Windows para Linux 2][1_5]

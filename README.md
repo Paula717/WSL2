@@ -1,4 +1,4 @@
-![Principal](img/img01.png)
+<div align=center><img width="600" src="img/img01.png"></div>
 
 # Realizado Por
 1. [Paula Andrea Cuellar Moreno][00]
