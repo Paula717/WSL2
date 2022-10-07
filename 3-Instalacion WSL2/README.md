@@ -282,7 +282,7 @@ Precionamos en conectar.<cite>
 
 ### Comandos utilizados
 | # | Comandos |
-|-- |--:|
+|--|:--:|
 | 1 | wsl -l -v |
 | 2 | wsl --set-version Ubuntu-20.04 2 |
 | 3 | wsl --set-default-version 2 |
